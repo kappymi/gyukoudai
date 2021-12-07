@@ -1,0 +1,242 @@
+@charset "utf-8";
+body {
+	min-width: 1000px;
+	background: #3F2B2B;
+	color: #FFFFFF;
+}
+.logo {
+	float: left;
+	margin-top: 0px;
+	font-family: YuMincho, 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+	font-size: 25px
+}
+#logo {/*ロゴの大きさの固定*/
+	width: 140px;
+	height: 120px;
+}
+
+#bar {
+	clear: both;
+}
+
+
+.menu {
+	float: left;
+	margin-top : -10px; 
+}
+
+.menu li {
+	width: 125px;
+	float: left;
+	background-color: #8C1517;
+	list-style: none;
+	position: relative;
+}
+
+.menu a{
+	color: #FFFFFF
+}
+
+.menu a:hover {
+	background-color: #E10278;
+	color: #000000;
+}
+
+.menu ul {  /*サブメニュー*/
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+#clear {
+	clear: both;
+}
+
+#video {
+	text-align: center;
+}
+
+video {
+	line-height: 100%;
+}
+
+.box {/*トップページのボックス*/
+    margin: 2em 0;
+    background: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box .box-title {
+    font-size: 50px;
+    background: #FFFFFF;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+	color: #5F2526;
+	font-family: 'NSimSun', serif;
+}
+.box p {
+    padding: 15px 20px;
+    margin: 0;
+	color: #A30310;
+	text-align: center;
+	font-size: 20px;
+}
+
+.box2 {/*メニューの種類ののボックス*/
+    position: relative;
+	/*top: -200px;*/
+    margin: 2em 0 2em 40px;
+    padding: 8px 15px;
+    background: #fff0c6;
+    border-radius: 30px;
+}
+.box2:before{font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 15px;
+    left: -40px;
+    bottom: 0;
+    color: #fff0c6;
+}
+.box2:after{
+    font-family: FontAwesome;
+    content: "\f111";
+    position: absolute;
+    font-size: 23px;
+    left: -23px;
+    bottom: 0;
+    color: #FFF0C6;
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+	font-size: 100px;
+	color: #000000;
+}
+
+.box3 {/*メニュー1つ１つのボックス*/
+    position: relative;
+	/*top: -200px;*/
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: #5c98d4;
+    font-weight: bold;
+	z-index: 1;
+}
+.box3:after {
+    position: absolute;
+    content: '';
+    top: 0%;
+    left: -10px;
+    border: 15px solid transparent;
+    border-top: 50px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box4 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+.box4 p {
+    margin: 0; 
+    padding: 0;
+	font-size: 25px;
+}
+
+.box5 {
+    position: relative;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: #5c98d4;
+    font-weight: bold;
+}
+.box5:after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 250px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+.box5 p {
+    margin: 0; 
+    padding: 0;
+	color: #000000;
+	font-size: 40px;
+}
+.meat {/*肉の写真の大きさの固定*/
+	width: 300px; 
+	height: 300px;
+}
+
+
+#party {
+	width: 300px;
+	height: 300px;
+}
+
+.point {
+	color: #000000;
+	font-size: 25px;
+}
+
+.usi{
+	color: #6B0B0B;
+	font-size: 50px;
+}
+
+.buta {
+	color: #CD0609;
+	font-size: 50px;
+}
+
+.tori {
+	color: #EB686A;
+	font-size: 50px;
+}
+
+.boximg {
+	width: 150px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#touten {
+	text-align: center;
+	position: relative;
+	font-size: 20px
+}
+
+#imgside {
+	display: flex;
+	justify-content: space-between
+}
+
+.map {
+	width: 500px;
+	height: 500px;
+}
+
+#map {
+	font-size: 25px;
+}
